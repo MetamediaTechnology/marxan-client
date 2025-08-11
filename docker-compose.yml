@@ -3,6 +3,6 @@ services:
   marxan-client:
     build: .
     image: openmarxclient:test
-    container_name: omc
+    container_name: openmarxclient
     ports:
       - "5001:80"
